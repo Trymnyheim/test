@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: red;
+}
+
+.cool {
+    font-size: 100px;
+    text-shadow: 4px 4px 6px black;
+    background-color: rgb(55, 190, 177);
+    padding: 24px;
+    border-radius: 12px;
+    border: solid 1px black;
+    transition: all 0.5s;
+    margin-top: 24px;
+}
+
+.cool:hover {
+    color: rgb(55, 190, 177);
+    background-color: red;
+    margin-top: 0px;
+    padding: 48px;
+}
